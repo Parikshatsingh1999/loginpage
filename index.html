@@ -1,0 +1,64 @@
+<html><head>
+    <title>LogIn Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><h2>Login Page </h2> 
+    <h2 style="color: brown;"> Submission by: <br>Parikshat Singh</h2>
+    <div class="login-page"></span>
+        <div class="form">
+<form class="registration-form">
+    <input id="rname" type="text" placeholder="Username" value=""/>
+    <input id="rpw" type="text" placeholder="Password" value="">
+    <input id="rmail" type="text" placeholder="email Id" value="">
+    <Button id="btnreg" onclick="checkcreate()">Create Id</Button>
+    <p class="message"> Already Registered?<a href="#">LogIn</a></p>
+</form> 
+
+<form
+class="login-form">
+<input id="lname" type="text" placeholder="Enter name">
+<input id="lpw" type="password" placeholder="Enter pw">
+
+<button id="btnlogin" onclick="checklogin()">Log in</button>
+<p class="message">Not Registered?  <a href="#">Register</a>
+
+</p>
+
+</form>
+
+<div>
+<h2>OR</h2>
+
+</div>
+
+        </div>
+    </div>
+   
+<div id="google_signin">
+
+    <a href="#"> <img src="glogo.png"> Sign In with Google </a>  
+
+
+
+</div>
+
+    
+    <form></form>
+ <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+ <script >
+
+$('.message a').click(function(){
+    $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+    
+});
+ </script>
+ <script rel="stylesheet" src="scrpit.js"></script>
+
+
+</body>
+
+
+
+
+</html>
